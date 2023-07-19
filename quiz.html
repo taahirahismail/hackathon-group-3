@@ -32,11 +32,55 @@
   />
     <title>Document</title>
 </head>
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg p-3 nav-bg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Know Your Score!</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"
+              >Community</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./creducation.html">Creducation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./quiz.html">Quiz!</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <style>
+    .nav-bg {
+    background-color: #F86F03 !important;
+}
+  </style>
+  <!-- header ends -->
 <body>
 <div class="mx-0 mx-sm-auto">
     <div class="card">
       <div class="card-body">
-        <div class="text-center" style="background-color:#FFA41B; border-radius: 20px ; padding: 16px;">
+        <div class="text-center">
           <i class="far fa-file-alt fa-4x mb-3 text-primary"></i>
           <p>
             <strong>How much do you know about credit score</strong>
@@ -284,14 +328,155 @@
         </form>
       </div>
       <div class="card-footer text-end">
-      <a href="/creducation.html"
+      <a href="/creducation.html">  <button type="button" class="btn btn-primary"  " value="Send Message">Submit</button></a>
       </div>
     </div>
   </div>
 
-
-
-
+  <style>
+    .footer {
+        background-color: #FFA41B !important
+        ;}</style>
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-light text-muted footer" id="#footer">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block" style="color: #000">
+            <span>Get connected with me on social networks:</span>
+          </div>
+          <!-- Left -->
+          <!-- Right -->
+          <div>
+            <a
+              href="https://www.facebook.com/facebook/"
+              target="_blank"
+              class="me-4 text-reset"
+            >
+              <i class="fab fa-facebook-f" style="color: #000"></i>
+            </a>
+            <a
+              href="https://twitter.com/explore?lang=en"
+              target="_blank"
+              class="me-4 text-reset"
+            >
+              <i class="fab fa-twitter" style="color: #000"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/clothingshoponline/?hl=en"
+              target="_blank"
+              class="me-4 text-reset"
+            >
+              <i class="fab fa-instagram" style="color: #000"></i>
+            </a>
+            <a
+              href="https://github.com/RidhaaGabier?tab=repositories"
+              target="_blank"
+              class="me-4 text-reset"
+            >
+              <i class="fab fa-github" style="color: black"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5" style="color: #000">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Credit Score
+                </h6>
+                <p>Knowlege is never given it's shared</p>
+              </div>
+              <!-- Grid column -->
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Credit Score</h6>
+                <p>
+                  <router-link to="/project" class="text-reset">FAQ</router-link>
+                  <router-link to="/project" class="text-reset"></router-link>
+                </p>
+                <p>
+                  <router-link to="/project" class="text-reset"
+                    >Quiz</router-link
+                  >
+                  <router-link to="/project" class="text-reset"></router-link>
+                </p>
+                <p>
+                  <router-link to="/project" class="text-reset"
+                    >Community</router-link
+                  >
+                  <router-link to="/project" class="text-reset"></router-link>
+                </p>
+                <p>
+                  <router-link to="/project" class="text-reset">Crededucation</router-link>
+                  <router-link to="/project" class="text-reset"></router-link>
+                </p>
+              </div>
+              <!-- Grid column -->
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                <p>
+                  <router-link to="/" class="text-reset"></router-link>
+                </p>
+                <p>
+                  <router-link to="/about" class="text-reset">About</router-link>
+                </p>
+                <p>
+                  <router-link to="/project" class="text-reset"
+                    >Home</router-link
+                  >
+                </p>
+                <p>
+                  <router-link to="/contact" class="text-reset"
+                    >Contact</router-link
+                  >
+                </p>
+                <p>
+                  <router-link to="/contact" class="text-reset"
+                    >More</router-link
+                  >
+                </p>
+              </div>
+              <!-- Grid column -->
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i> Cape Town, WC 10012, ZA</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  creditscore@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 27 021 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 27 021 667 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.05); color: #000"
+        >
+          © 2023 Copyright
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
     <script
     src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
