@@ -17,13 +17,17 @@ body {
     overflow: auto;
 }
 
+.card:hover {
+    background-color: #FFA41B;
+}
+
 .btn {
-    border: 2px solid #FFA41B !important;
-    color: #FFA41B !important;
+    border: 2px solid #F86F03 !important;
+    color: #F86F03 !important;
 }
 
 .btn:hover {
-    background-color: #FFA41B !important;
+    background-color: #F86F03 !important;
     color: #FFF6F4 !important;
 }
 
