@@ -47,7 +47,7 @@
       li {
         list-style: none;
         font-weight: 700;
-        text-align: center;
+        /* text-align: center; */
         padding-bottom: 10px;
       }
 
@@ -55,35 +55,67 @@
         padding-top: 60px;
       }
 
-      img {
+      #info {
         width: 450px;
         height: auto;
-        padding-bottom: 30px;
+        /* padding-bottom: 30px; */
+        /* border-radius: 40px; */
+        box-shadow: 2px 2px 8px;
       }
 
-      h3 {
-        padding-bottom: 30px;
+      .heading {
+        font-size: 5rem;
+      }
+
+      .head {
+        font-size: 3rem;
+        text-align: center;
       }
 
       h2 {
         padding-top: 30px;
+        color: rgb(99, 99, 99);
+        text-shadow: 2px 2px 2px #878787;
+        text-align: center;
+      }
+
+      h3 {
+        padding-bottom: 30px;
+        color: #F86F03 !important;
+        text-shadow: 2px 2px 2px #c68d62;
+        text-align: center;
+        font-size: 2rem;
       }
 
       div.card-body {
         padding-right: 30px;
-        
+
       }
 
-      .nav-bg {
+      .navbar.navbar-expand-lg {
     background-color: #F86F03 !important;
-}
+      }
 
+      footer.text-center.text-lg-start.bg-light.text-muted {
+        background-color: #FFA41B !important;
+      }
+
+      footer.pt-3.pb-3.light-text.border-top.text-center {
+        background-color: #ffb84e !important;
+      }
+
+      .card {
+        box-shadow: 2px 2px 2px rgb(81, 81, 81);
+        margin-right: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
     </style>
 </head>
 
 <body>
    <!-- header -->
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Know Your Score!</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -117,13 +149,13 @@
     
 
     <!-- Credit information -->
-    <h2 class="heading"> Creducation </h2>
+    <h2 class="heading"> CREDucation </h2>
     <br> 
     <div class="container">
       <div class="row">
         <h3 class="Qs"> What is credit? </h3>
         <div class="col-5">
-          <img src="https://i.postimg.cc/gkRtykwZ/download.jpg" class="img-fluid" alt="..."></div>
+          <img id="info" src="https://i.postimg.cc/gkRtykwZ/download.jpg" class="img-fluid" alt="..."></div>
         <div class="col-7">
           <p>
             Credit refers to the ability to borrow money or access goods or services with the promise of paying for them in the future. It is a financial arrangement between a borrower and a lender, where the borrower is provided with funds or a line of credit based on the expectation that they will repay the borrowed amount, often with interest, over a specified period of time.
@@ -131,9 +163,6 @@
         </div>
       </div>
     </div>
-
-    <br>
-    <br>
     <div class="container">
       <div class="row">
         <h3 class="Qs"> Why do I need a credit score? </h3>
@@ -153,7 +182,7 @@
           </p>
           
       </div>
-        <div class="col-5"><img src="https://i.postimg.cc/NjF4JsFD/good-credit.jpg" class="img-fluid" alt="..."><br></div>
+        <div class="col-5"><img id="info" src="https://i.postimg.cc/NjF4JsFD/good-credit.jpg" class="img-fluid" alt="..."><br></div>
       </div>
       <li>Utility Services and Cell Phone Contracts</li>
           <p>
@@ -175,7 +204,7 @@
         <div class="container">
           <div class="row">
             <h3  class="Qs"> How do I build a credit score? </h3>
-            <div class="col-5"><img enter-class="build" src="https://i.postimg.cc/4NXGwkxL/Credible-credit-score-house-i-Stock-1138687670.jpg" class="img-fluid" alt="..."></div>
+            <div class="col-5"><img id="info" src="https://i.postimg.cc/4NXGwkxL/Credible-credit-score-house-i-Stock-1138687670.jpg" class="img-fluid" alt="..."></div>
             <div class="col-7">
               <li>
                 Open a Bank Account
@@ -234,7 +263,7 @@
                   </p>
                   
                 </div>
-                  <div class="col-5"><img src="https://i.postimg.cc/htLScLtj/Good-Credit-vs-Bad-Credit.png" class="img-fluid" alt="..."></div>
+                  <div class="col-5"><img id="info" src="https://i.postimg.cc/htLScLtj/Good-Credit-vs-Bad-Credit.png" class="img-fluid" alt="..."></div>
                 </div>
                 <li>
                     Impulse Spending
@@ -246,7 +275,7 @@
           </div>
         </div>
         <!-- credit score dial -->
-    <h2 class="heading"> Credit Score Dial </h2>
+    <h2 class="head"> Credit Score Dial </h2>
     <div class="container d-flex justify-content-center align-items-center text-center">
       <img src="https://i.postimg.cc/cJ2xBrLM/credit-score-ranges-600x450.png" class="img-fluid" alt="credit score dial">
     </div>
@@ -255,8 +284,7 @@
 
     <br>
     <!-- Resources -->
-    <h3 class="heading"> Resources to calculate your credit score for free </h3>
-    <br>
+    <h3 class="h"> Resources to calculate your credit score for free </h3>
     <div class="container d-flex justify-content-center">
 
       <div class="card" style="width: 18rem;">
