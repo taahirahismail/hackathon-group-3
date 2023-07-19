@@ -1,0 +1,26 @@
+.body {
+    min-height: 100vh; 
+    background-color: rgb(239, 227, 227);
+}
+
+#card{
+    background: linear-gradient(to right,  #F86F03, #FFA41B);
+}
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fff;
+    color: black;
+    
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
